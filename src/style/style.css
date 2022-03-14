@@ -1,0 +1,1270 @@
+@import "../style/fonts.css";
+/*scroll to section component*/
+ html {
+	 scroll-behavior: smooth;
+}
+/* Remove initial values*/
+ body {
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+}
+ a {
+	 text-decoration: none;
+	 color: inherit;
+	 text-underline: none;
+	/*Delete underline of links*/
+	/*Delete underline of links*/
+	/*Delete underline of links*/
+}
+ a:hover {
+	 text-decoration: none;
+}
+ a:focus {
+	 text-decoration: none;
+}
+ a:active {
+	 text-decoration: none;
+}
+ * {
+	 padding: 0;
+	 margin: 0;
+}
+ button {
+	 color: inherit;
+	 border: none;
+	 overflow: inherit;
+}
+ p {
+	 margin: 0;
+}
+ h1, h2 {
+	 margin: 0;
+}
+/* Remove initial values*/
+/* Boostrap slider */
+ .slick-slide {
+	 margin: 0 20px;
+	 display: none;
+	 float: left;
+	 height: 100%;
+	 min-height: 1px;
+}
+ .slick-slide img {
+	 width: 100%;
+	 display: block;
+}
+ .slick-slider {
+	 position: relative;
+	 display: block;
+	 box-sizing: border-box;
+	 -webkit-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+	 -webkit-touch-callout: none;
+	 -khtml-user-select: none;
+	 -ms-touch-action: pan-y;
+	 touch-action: pan-y;
+	 -webkit-tap-highlight-color: transparent;
+}
+ .slick-slider .slick-track {
+	 -webkit-transform: translate3d(0, 0, 0);
+	 -moz-transform: translate3d(0, 0, 0);
+	 -ms-transform: translate3d(0, 0, 0);
+	 -o-transform: translate3d(0, 0, 0);
+	 transform: translate3d(0, 0, 0);
+}
+ .slick-slider .slick-list {
+	 -webkit-transform: translate3d(0, 0, 0);
+	 -moz-transform: translate3d(0, 0, 0);
+	 -ms-transform: translate3d(0, 0, 0);
+	 -o-transform: translate3d(0, 0, 0);
+	 transform: translate3d(0, 0, 0);
+}
+ .slick-list {
+	 position: relative;
+	 display: block;
+	 overflow: hidden;
+	 margin: 0;
+	 padding: 0;
+}
+ .slick-list:focus {
+	 outline: none;
+}
+ .slick-list.dragging {
+	 cursor: pointer;
+	 cursor: hand;
+}
+ .slick-track {
+	 position: relative;
+	 top: 0;
+	 left: 0;
+	 display: block;
+}
+ .slick-track:before {
+	 display: table;
+	 content: '';
+}
+ .slick-track:after {
+	 display: table;
+	 content: '';
+	 clear: both;
+}
+ .slick-loading .slick-track {
+	 visibility: hidden;
+}
+ .slick-loading .slick-slide {
+	 visibility: hidden;
+}
+ [dir='rtl'] .slick-slide {
+	 float: right;
+}
+ .slick-slide.slick-loading img {
+	 display: none;
+}
+ .slick-slide.dragging img {
+	 pointer-events: none;
+}
+ .slick-initialized .slick-slide {
+	 display: block;
+}
+ .slick-vertical .slick-slide {
+	 display: block;
+	 height: auto;
+	 border: 1px solid transparent;
+}
+ .slick-arrow.slick-hidden {
+	 display: none;
+}
+/* Boostrap slider */
+/*Universal class*/
+ .container {
+	 padding: 0 10px;
+	 margin: 0 auto;
+	 width: 100%;
+	 max-width: 1446px;
+}
+ .container:before, .container:after {
+	 content: none;
+}
+ .d-flex {
+	 display: flex;
+}
+ .d-flex_column {
+	 flex-direction: column;
+}
+ .d-flex_center {
+	 align-items: center;
+	 justify-content: center;
+}
+ .d-flex_just-right {
+	 justify-content: right;
+}
+ .d-flex_just-left {
+	 justify-content: left;
+}
+ .d-flex_just-end {
+	 justify-content: end;
+}
+ .row {
+	 width: 100%;
+	 margin: 0;
+}
+ .col-12 {
+	 width: 100%;
+}
+ .col-6 {
+	 width: 50%;
+}
+ .col-4 {
+	 width: 33.33333%;
+}
+ .pos-relative {
+	 position: relative;
+}
+ .pos-absolute {
+	 position: absolute;
+}
+ .sky-button {
+	 background: linear-gradient(90deg, #48c6ef 0%, #407bff 100%);
+	 box-shadow: 4px 4px 20px rgba(10, 53, 148, 0.25);
+	 border-radius: 50px;
+	 width: 300px;
+	 height: 70px;
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 24px;
+	 line-height: 26px;
+	 color: #fff;
+	 cursor: pointer;
+}
+ .hero__sky-button {
+	 background: linear-gradient(90deg, #48c6ef 0%, #407bff 100%);
+	 box-shadow: 4px 4px 20px rgba(10, 53, 148, 0.25);
+	 border-radius: 50px;
+	 width: 300px;
+	 height: 70px;
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 24px;
+	 line-height: 26px;
+	 color: #fff;
+	 cursor: pointer;
+	 z-index: 1;
+}
+ .logo {
+	 text-align: center;
+	 z-index: 1;
+}
+ .logo__title {
+	 font-family: "Jost", sans-serif;
+	 font-style: normal;
+	 font-size: 18px;
+	 line-height: 26px;
+	 color: #000;
+}
+ .our-title {
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 48px;
+	 line-height: 26px;
+	 color: #182227;
+	 text-align: center;
+}
+/*Universal class*/
+/*Header components*/
+ .header {
+	 position: absolute;
+	 top: 40px;
+	 height: 64px;
+	 width: 100%;
+	 margin: 0 auto;
+	 left: 0;
+	 right: 0;
+}
+ .header__container {
+	 max-width: 1426px;
+}
+ .header__values_text {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 35px;
+}
+ .header__link {
+	 color: #000;
+	 margin-right: 97px;
+	 text-align: center;
+}
+ .header__link:hover {
+	 position: relative;
+}
+ .header__link:hover:before {
+	 content: '';
+	 position: absolute;
+	 border-bottom: 2px solid #3a70e8;
+	 bottom: -8px;
+	 left: -2px;
+	 right: 0;
+	 width: 115%;
+	 margin: 0 auto;
+}
+ .header__eng {
+	 color: #b4b1b1;
+	 margin-left: 16px;
+}
+ .header__nav {
+	 margin-left: 326px;
+}
+ .header__burger {
+	 display: block;
+}
+/*Header components*/
+/*Mobile burger*/
+ .mobile__menu {
+	 display: none;
+	 transition: all 1s ease-out;
+}
+ .mobile__btn {
+	 display: block;
+	 width: 40px;
+	 height: 40px;
+	 position: relative;
+}
+ .mobile__btn span {
+	 display: block;
+	 width: 23px;
+	 height: 2px;
+	 background: #000;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 margin-left: -10px;
+	 transition: all 1s ease-out;
+}
+ .mobile__btn:after, .mobile__btn:before {
+	 content: '';
+	 position: absolute;
+	 display: block;
+	 width: 17px;
+	 height: 2px;
+	 background: #000;
+	 top: 50%;
+	 left: 65%;
+	 margin-left: -10px;
+}
+ .mobile__btn:active {
+	 transition: all 0.4s linear;
+}
+ .mobile__btn:after {
+	 transform: translateY(5px);
+}
+ .mobile__btn:before {
+	 transform: translateY(-5px);
+}
+ .burger__menu {
+	 position: fixed;
+	 display: none;
+	 width: 100%;
+	 height: 100vh;
+	 background: #fff;
+	 z-index: 5;
+	 align-items: center;
+	 flex-direction: column;
+	 justify-content: start;
+	 padding: 37px 37px 111px;
+	 transition: all 1s ease-out;
+}
+ .burger__menu .header__values_text {
+	 margin-bottom: 70px;
+	 margin-right: 0;
+	 font-size: 30px;
+	 line-height: 29px;
+}
+ .burger__exit svg {
+	 width: 25px;
+	 height: 25px;
+}
+ .burger__top {
+	 display: flex;
+	 justify-content: space-between;
+	 width: 100%;
+}
+ .burger__nav {
+	 padding-top: 177px;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+}
+ .burger__link {
+	 margin-bottom: 70px;
+	 margin-right: 0;
+	 font-size: 30px;
+	 line-height: 29px;
+	 text-align: center;
+	 position: relative;
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+}
+ .burger__link:hover:before {
+	 content: "";
+	 position: absolute;
+	 border-bottom: 2px solid #3a70e8;
+	 bottom: -8px;
+	 left: -2px;
+	 right: 0;
+	 width: 115%;
+	 margin: 0 auto;
+}
+ .mobile__menu a {
+	 transition: all 0.4s ease-out;
+}
+/*Hero components*/
+ .hero {
+	 height: 100vh;
+	 padding: 246px 0 73px;
+	 background: linear-gradient(90deg, #fefbfb 0%, #e3eeff 99%, #e3eeff 100%);
+}
+ .hero:before {
+	 content: '';
+	 position: absolute;
+	 transform: matrix(1, 0, 0, -1, 0, 0);
+}
+ .hero .container {
+	 max-width: 1416px;
+}
+ .hero__application {
+	 width: 480px;
+}
+ .hero__main-title {
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 48px;
+	 line-height: 69px;
+	 text-transform: uppercase;
+	 color: #000;
+	 margin-bottom: 9px;
+}
+ .hero__sub-title {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 28px;
+	 line-height: 40px;
+	 text-transform: uppercase;
+	 color: #000;
+}
+ .hero__title {
+	 width: 428px;
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 35px;
+	 color: #455a64;
+	 margin-bottom: 66px;
+}
+ .hero__form {
+	 padding-top: 100px;
+}
+ .hero__input {
+	 width: 480px;
+	 height: 70px;
+	 background: #fff;
+	 border: 1px solid #efeeee;
+	 box-sizing: border-box;
+	 border-radius: 5px;
+	 padding: 19px 0 19px 15px;
+	 font-size: 22px;
+	 line-height: 32px;
+}
+ .hero__input::placeholder {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 22px;
+	 line-height: 32px;
+	/* identical to box height */
+	 color: #849198;
+	/* Inside auto layout */
+	 flex: none;
+	 order: 0;
+	 flex-grow: 0;
+	 margin: 0 10px;
+}
+ .hero__input_margin {
+	 margin: 25px 0 48px;
+}
+ .hero__background-second {
+	 right: 57px;
+	 bottom: 0;
+}
+ .hero__background-first {
+	 left: -32px;
+	 top: 0;
+}
+ .hero__vector {
+	 width: 52.53px;
+	 height: 30.16px;
+	 top: 155px;
+	 left: 210px;
+}
+ .hero__vector_blue {
+	 display: none;
+}
+ .hero__exit-name {
+	 display: none;
+	 position: absolute;
+	 top: 58%;
+	 right: 5%;
+}
+ .hero__exit-number {
+	 display: none;
+	 position: absolute;
+	 top: 79%;
+	 right: 5%;
+}
+ .hero__ok-name {
+	 display: none;
+	 position: absolute;
+	 top: 58%;
+	 right: 5%;
+}
+ .hero__ok-number {
+	 display: none;
+	 position: absolute;
+	 top: 79%;
+	 right: 5%;
+}
+/*Hero components*/
+/*Section "О нас" components*/
+ .about {
+	 padding: 64px 0 63px;
+	 position: relative;
+}
+ .about__under {
+	 display: none;
+	 width: 100%;
+	 background: #f8f9ff;
+	 height: 290px;
+}
+ .about :before {
+	 content: '';
+	 position: absolute;
+	 background: #fff;
+	 transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+ .about__background-img {
+	 bottom: -4px;
+	 left: 42px;
+}
+ .about__title {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 48px;
+	 line-height: 69px;
+	 color: #4c57a9;
+	 margin-bottom: 60px;
+}
+ .about__description {
+	 width: 769px;
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 22px;
+	 line-height: 40px;
+	 color: #000;
+}
+ .about__description_none {
+	 display: none;
+}
+/*Section "О нас" components*/
+/*Under section "О нас" components*/
+ .quote {
+	 padding: 89px 0;
+	 background: #f8f9ff;
+}
+ .quote__sub-title {
+	 position: relative;
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 35px;
+	 color: #03336e;
+	 width: 1139px;
+}
+ .quote__sub-title:before {
+	 content: '';
+	 position: absolute;
+	 border-left: 2px solid #bbc7db;
+	 height: 120px;
+	 left: -36px;
+}
+/*Under section "О нас" components*/
+/*Section "Наша миссия" components*/
+ .mission {
+	 background: #fff;
+	 padding: 74px 0 70px;
+	 position: relative;
+}
+ .mission__title {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 48px;
+	 line-height: 69px;
+	 color: #4c57a9;
+	 margin-bottom: 36px;
+}
+ .mission__description_none {
+	 display: none;
+}
+ .mission__description {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 40px;
+	 color: #263238;
+	 width: 692px;
+}
+ .mission__background-img {
+	 bottom: 0;
+	 right: 125px;
+}
+/*Section "Наша миссия" components*/
+/*Section Property*/
+ .property {
+	 padding: 157px 0 135px;
+	 background: #f8f9ff;
+	 border-bottom: 2px solid rgba(227, 228, 228, 0.5);
+}
+ .property__text-main {
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 52px;
+	 line-height: 61px;
+	 text-align: center;
+	 text-transform: capitalize;
+	 color: #455a64;
+}
+ .property__text-sub {
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: 500;
+	 font-size: 18px;
+	 line-height: 28px;
+	 text-align: center;
+	 color: #455a64;
+	 width: 542px;
+}
+ .property__openness {
+	 position: relative;
+	 z-index: 1;
+	 margin-bottom: 93px;
+}
+ .property__openness-second {
+	 display: none;
+}
+ .property__openness-title {
+	 margin-bottom: 17px;
+}
+ .property__openness:before {
+	 content: '02';
+	 position: absolute;
+	 z-index: -1;
+	 left: 387px;
+	 top: -86px;
+	 font-family: "Montserrat", sans-serif;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 164px;
+	 line-height: 155.69%;
+	 text-transform: capitalize;
+	 color: #fff;
+}
+ .property__honesty {
+	 position: relative;
+	 z-index: 1;
+}
+ .property__honesty-title {
+	 margin-bottom: 12px;
+}
+ .property__honesty:before {
+	 content: '01';
+	 position: absolute;
+	 z-index: -1;
+	 left: -2px;
+	 bottom: -15px;
+	 font-family: "Montserrat", sans-serif;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 164px;
+	 line-height: 155.69%;
+	 text-transform: capitalize;
+	 color: #fff;
+}
+ .property__perfection {
+	 position: relative;
+	 z-index: 1;
+}
+ .property__perfection-title {
+	 margin-bottom: 13px;
+}
+ .property__perfection:before {
+	 content: '03';
+	 position: absolute;
+	 z-index: -1;
+	 left: -67px;
+	 bottom: -4px;
+	 font-family: "Montserrat", sans-serif;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 164px;
+	 line-height: 155.69%;
+	 text-transform: capitalize;
+	 color: #fff;
+}
+/*Section Property*/
+/*Make width "description" bigger*/
+ .property .property__perfection-description {
+	 width: 573px;
+}
+/*Make width "container" bigger*/
+ .property .container {
+	 max-width: 1436px;
+}
+/*Give padding-left*/
+ .property .row {
+	 padding-left: 18px;
+}
+/*Section "Наши услуги" components*/
+ .services {
+	 background: #f8f9ff;
+	 padding: 98px 0 120px;
+	 position: relative;
+	 z-index: 1;
+	 border-bottom: 2px solid rgba(227, 228, 228, 0.5);
+}
+ .services__background-img {
+	 transform: translate(-50%, -50%);
+	 top: 53%;
+	 left: 49%;
+	 z-index: -1;
+}
+ .services__second-img {
+	 display: none;
+}
+ .services__title {
+	 margin-bottom: 48px;
+}
+ .services__automation {
+	 width: 567px;
+}
+ .services__top-description {
+	 width: 100%;
+}
+ .services__organization-title {
+	 margin: 22px 0 20px;
+}
+ .services__automation-title {
+	 margin: 21px 0 25px;
+}
+ .services__personal-title {
+	 margin: 4px 0 16px;
+}
+ .services__audit-title {
+	 margin: 4px 0 20px;
+}
+ .services__organization-description {
+	 width: 549px;
+}
+ .services__automation-description {
+	 width: 567px;
+}
+ .services__personal-description {
+	 width: 558px;
+}
+ .services__audit-description {
+	 width: 534px;
+}
+ .services__lines {
+	 z-index: -1;
+}
+ .services__lines-organization {
+	 top: 459px;
+	 left: 618px;
+	 z-index: -2;
+}
+ .services__lines-personal {
+	 left: 511px;
+	 top: 544px;
+	 z-index: -2;
+}
+ .services__lines-audit {
+	 top: 719px;
+	 right: 601px;
+	 z-index: -2;
+}
+ .services__lines-automation {
+	 right: 493px;
+	 top: 634px;
+	 z-index: -2;
+}
+ .services__main-title {
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 26px;
+	 line-height: 26px;
+	 color: #6e83b7;
+}
+ .services__sub-description {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 18px;
+	 line-height: 25px;
+	 text-align: center;
+	 color: #202c32;
+}
+ .services__bot {
+	 padding-top: 236px;
+}
+/*Section "Наши услуги" components*/
+/*Section "Наши клиенты" components*/
+ .clients {
+	 padding: 85px 0 132px;
+	 background: #f8f9ff;
+}
+ .clients__slider {
+	 padding-top: 105px;
+}
+ .clients__slide {
+	 height: 317px;
+	 background: #fff;
+	 box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.06);
+	 border-radius: 8px;
+}
+ .clients__inner {
+	 height: 100%;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+ .clients__inner img {
+	 width: auto;
+}
+ .clients__card {
+	 border: none;
+	 overflow-x: auto;
+	 overflow-y: hidden;
+	 white-space: nowrap;
+	 object-fit: initial;
+	 scroll-snap-type: x mandatory;
+}
+ .clients__card-img {
+	 background: #fff;
+	 box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.06);
+	 border-radius: 8px;
+	 min-width: 317px;
+	 min-height: 317px;
+	 text-align: center;
+	 vertical-align: middle;
+	 scroll-snap-align: start;
+}
+ .clients__card-img:not(:last-child) {
+	 margin-right: 71px;
+}
+/*Section "Наши клиенты" components*/
+/*Section "Вакансии" components*/
+ .jobs {
+	 position: relative;
+	 padding: 84px 0 126px;
+	 background: linear-gradient(90deg, #fff 0%, #fff 100%);
+}
+ .jobs:before {
+	 content: '';
+	 position: absolute;
+	 transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+ .jobs__background-img {
+	 bottom: 0;
+	 right: 38px;
+}
+ .jobs__selector {
+	 padding-top: 149px;
+}
+ .jobs__tester {
+	 position: relative;
+}
+ .jobs__tester-vacancy {
+	 top: 33%;
+}
+ .jobs__auto-tester {
+	 margin: 50px 0 82px;
+}
+ .jobs__plus {
+	 font-size: 40px;
+	 font-weight: 100;
+	 margin-left: 33px;
+}
+ .jobs__select {
+	 position: relative;
+	 background: #f5faff;
+	 width: 782px;
+	 height: 87px;
+	 box-shadow: 2px 4px 9px rgba(75, 75, 75, 0.25);
+	 border-radius: 5px;
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 26px;
+	 line-height: 26px;
+	 color: #000;
+	 text-align: center;
+}
+ .jobs__select:hover {
+	 border: 2px solid #6d9aff;
+}
+ .jobs__backgroung-img {
+	 right: 38px;
+	 bottom: 0;
+}
+ .jobs__dropdown-tester {
+	 margin-bottom: 110px;
+}
+ .jobs__dropdown-title {
+	 position: relative;
+	 font-family: "Jost", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 26px;
+	 line-height: 26px;
+	 color: #000;
+	 display: inline-block;
+	 margin-bottom: 56px;
+	 cursor: pointer;
+	 margin-right: 20px;
+}
+ .jobs__dropdown-title:before {
+	 content: '';
+	 position: absolute;
+	 border-right: 2px solid #000;
+	 width: 25px;
+	 height: 25px;
+	 transform: rotate(90deg);
+	 bottom: 50%;
+	 right: -43px;
+}
+ .jobs__dropdown-content {
+	 display: none;
+	 position: absolute;
+	 z-index: 1;
+	 padding: 45px 25px 60px 50px;
+	 max-width: 750px;
+	 background: #fff;
+	 box-shadow: 3px 9px 36px rgba(75, 75, 75, 0.04);
+	 border-radius: 5px;
+}
+ .jobs__tester_text-value {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 30px;
+	 color: #202c32;
+}
+ .jobs__auto-description {
+	 margin-bottom: 20px;
+}
+ .jobs__auto-text-value {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 22px;
+	 line-height: 30px;
+	 color: #000;
+}
+ .jobs__auto-vacancy {
+	 top: 50%;
+}
+ .jobs__auto_flex {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+}
+ .jobs__link {
+	 display: none;
+	 font-family: "Jost", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 14px;
+	 line-height: 26px;
+	 text-decoration-line: underline;
+	 color: #407bff;
+	 margin-top: 19px;
+}
+ .jobs__background-img_mobile, .jobs__auto-vacancy_mobile, .jobs__auto-vacancy_mobile, .jobs__tester-vacancy_mobile, .jobs__sky-button-mobile {
+	 display: none;
+}
+ .jobs__tester-mobile {
+	 display: none;
+}
+ .jobs__auto-mobile {
+	 display: none;
+}
+ .jobs__dropdown-content li {
+	 margin-left: 25px;
+}
+ .jobs__dropdown-content li::marker {
+	 font-size: 10px;
+}
+ .jobs__tester-requirement, .jobs__tester-plus, .jobs__tester-conditions {
+	 margin-top: 25px;
+}
+ .jobs__auto-requirement, .jobs__auto-conditions {
+	 margin-top: 25px;
+}
+/*Make width "sky-button" bigger*/
+ .jobs .sky-button {
+	 width: 380px;
+	 height: 70px;
+}
+/*Section "Вакансии" components*/
+ .modal {
+	 display: none;
+}
+ .modal__window {
+	 position: fixed;
+	 transform: translate(-50%, -50%);
+	 z-index: 1;
+	 top: 50%;
+	 left: 50%;
+	 max-width: 1089px;
+	 max-height: 958px;
+	 padding: 104px 310px 164px 334px;
+	 background: linear-gradient(90deg, #dfe9f3 0%, #fff 100%);
+	 box-shadow: 2px 10px 30px rgba(75, 75, 75, 0.15);
+	 border-radius: 15px;
+}
+ .modal__overlay {
+	 background: rgba(49, 57, 74, 0.4);
+	 width: 100%;
+	 height: 100vh;
+}
+ .modal__exit {
+	 position: absolute;
+	 top: 62px;
+	 right: 69px;
+	 cursor: pointer;
+}
+ .modal__exit-name, .modal__exit-number, .modal__exit-link {
+	 display: none;
+	 position: absolute;
+}
+ .modal__exit-name {
+	 top: 306px;
+	 right: 287px;
+}
+ .modal__exit-number {
+	 top: 420px;
+	 right: 287px;
+}
+ .modal__exit-link {
+	 right: 287px;
+	 bottom: 404px;
+}
+ .modal__ok-number, .modal__ok-name, .modal__ok-link {
+	 position: absolute;
+	 display: none;
+}
+ .modal__ok-name {
+	 top: 306px;
+	 right: 287px;
+}
+ .modal__ok-number {
+	 top: 420px;
+	 right: 287px;
+}
+ .modal__ok-link {
+	 right: 287px;
+	 bottom: 404px;
+}
+ .modal__title {
+	 font-family: "Jost", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 28px;
+	 line-height: 40px;
+	 color: #000;
+	 margin-bottom: 90px;
+}
+ .modal__link-img {
+	 position: absolute;
+	 right: 31%;
+	 top: 55.5%;
+}
+ .modal__input {
+	 padding: 27px 0 27px 20px;
+	 width: 502px;
+	 height: 80px;
+	 background: #fff;
+	 border: 1px solid #edeeef;
+	 box-sizing: border-box;
+	 border-radius: 5px;
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 22px;
+	 line-height: 26px;
+	 color: #000;
+	 margin-bottom: 35px;
+}
+ .modal__input::placeholder {
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 22px;
+	 line-height: 26px;
+	 color: #afbac0;
+}
+ .modal__attach {
+	 position: relative;
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: 500;
+	 font-size: 20px;
+	 width: 300px;
+	 height: 60px;
+	 line-height: 23px;
+	 color: #777d81;
+	 background: none;
+	 border: 2px solid #777d81;
+	 box-sizing: border-box;
+	 border-radius: 5px;
+}
+ .modal__attach:before {
+	 content: "";
+	 position: absolute;
+	 width: 2px;
+	 height: 20px;
+	 left: 60px;
+	 top: 17px;
+	 background: #777d81;
+}
+ .modal__upload {
+	 margin-right: 30px;
+}
+ .modal__sky-button {
+	 margin-top: 90px;
+	 width: 350px;
+	 height: 70px;
+}
+ .modal__label {
+	 position: relative;
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 22px;
+	 line-height: 26px;
+	 color: #e84949;
+	 margin: 0 0 7px 20px;
+}
+ .modal__label-name, .modal__label-number, .modal__label-link {
+	 position: absolute;
+	 display: none;
+}
+ .modal__label-name {
+	 top: 26%;
+	 left: 29%;
+}
+ .modal__label-number {
+	 top: 38%;
+	 left: 29%;
+}
+ .modal__label-link {
+	 top: 50%;
+	 left: 29%;
+}
+ .modal__sub {
+	 display: none;
+	 position: absolute;
+	 font-family: "Roboto", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 12px;
+	 line-height: 14px;
+	 color: #849198;
+	 left: 357px;
+	 bottom: 349px;
+}
+/*Section "address" components*/
+ .address {
+	 padding: 209px 0 173px;
+	 background: #f8f9ff;
+}
+ .address__map {
+	 display: none;
+	 width: 350px;
+	 height: 150px;
+	 background: #fff;
+	 text-align: center;
+	 padding: 30px 60px;
+	 box-shadow: 1px 4px 19px rgba(0, 0, 0, 0.17);
+	 border-radius: 10px;
+}
+ .address__title {
+	 position: relative;
+}
+ .address__title:before {
+	 content: '';
+	 position: absolute;
+	 border-right: 3px solid #264a99;
+	 height: 149px;
+	 right: -26px;
+}
+ .address__coordinates {
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 36px;
+	 line-height: 26px;
+	 width: 296.65px;
+	 color: #264a99;
+	 margin-left: 21px;
+}
+ .address .address__map-img {
+	 position: relative;
+	 display: none;
+}
+ .address__contacts {
+	 position: relative;
+}
+ .address__contacts:before {
+	 content: '';
+	 position: absolute;
+	 border-right: 3px solid #264a99;
+	 height: 149px;
+	 right: -126px;
+}
+ .address__text-values {
+	 font-family: "Jost", sans-serif;
+	 font-weight: 500;
+	 font-size: 24px;
+	 line-height: 21px;
+	 color: #37474f;
+}
+ .address__ru-phone {
+	 margin: 28px 0 23px;
+}
+ .address__link {
+	 font-family: "Jost", sans-serif;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 21px;
+	 color: #37474f;
+	 margin-bottom: 32px;
+}
+ .address__icon:not(:last-child) {
+	 margin-right: 14px;
+}
+ .address__icons {
+	 display: flex;
+}
+ .address__toster-inst, .address__tele-whats, .address__face-link:not(:last-child) {
+	 margin-right: 14px;
+}
+/*Footer components*/
+ .footer {
+	 padding: 47px 0 68px;
+	 background: #8fa2ab;
+}
+ .footer__nav {
+	 margin-right: 66px;
+}
+ .footer__social {
+	 display: none;
+}
+ .footer__text-value {
+	 font-family: "Rubik", sans-serif;
+	 font-weight: normal;
+	 font-size: 20px;
+	 line-height: 130.69%;
+	 letter-spacing: 0.07em;
+	 color: #fff;
+	 display: inline-block;
+}
+ .footer__text-value:not(:last-child) {
+	 margin-bottom: 22px;
+}
+ .footer__link {
+	 font-family: "Jost", sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 font-size: 24px;
+	 line-height: 35px;
+	 color: #fff;
+	 display: inline-block;
+}
+ .footer__link:not(:last-child) {
+	 margin-bottom: 13px;
+}
+/*Make width "container" bigger*/
+ .footer .container {
+	 max-width: 1487px;
+}
+/*Footer components*/
+ 
+@import url("./media.css");
